@@ -11,25 +11,6 @@ src/test/performance/
 └── README.md               # 本文件
 ```
 
-## Java性能测试
-
-Java性能测试使用JUnit和Spring Boot Test框架实现，包含以下测试：
-
-1. **并发事务创建测试** - 测试多个线程同时创建交易的性能
-2. **高并发事务查询测试** - 测试大量并发读取交易的性能
-
-### 运行Java性能测试
-
-```bash
-# 运行所有性能测试
-mvn test -Dtest="*PerformanceTest"
-
-# 运行特定的性能测试类
-mvn test -Dtest=com.example.banktransactionmanager.performance.TransactionPerformanceTest
-
-# 运行特定的测试方法
-mvn test -Dtest=com.example.banktransactionmanager.performance.TransactionPerformanceTest#testConcurrentTransactionCreation
-```
 
 ## JMeter性能测试
 
