@@ -212,7 +212,6 @@ mvn test
 
 The project includes performance tests to evaluate the system under load:
 
-- **Java Performance Tests**: Concurrent transaction creation and retrieval tests
 - **JMeter Tests**: GUI-based load testing scripts
 
 See [Performance Test Documentation](src/test/performance/README.md) for details on how to run these tests.
